@@ -1,0 +1,23 @@
+VEICOLI
+
+ID			numero incrementale  			PRIMARY KEY, UNIQUE, AI
+tipo veicolo		stringa			varchar(20) 	NOT NULL 
+marca			stringa			varchar(15) 	NOT NULL	
+modello			stringa			varchar(20)  	NOT NULL
+numero telaio		stringa			varchar(17)	NOT NULL	
+km			numero			smallint  	NOT NULL
+Anno d'immatricolazione	data			year		NOT NULL
+Prezzo di acquisto	numero			float(8,2) 	
+Prezzo di Vendita	numero			float(8,2) 	
+Condizioni		stringa			varchar(7)	NOT NULL
+Ultima revisione	data			DATE	  	
+Ultimo Tagliando	data			DATE	 
+Allestimento		stringa			varchar (10) 
+cilindrata		numero			small		NOT NULL		
+potenza KW		numero 			small		NOT NULL	
+alimentazione		stringa			varchar(10)	NOT NULL
+
+
+
+
+
